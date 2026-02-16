@@ -1,0 +1,4 @@
+tar -xzf near-intents-vercel.tar.gz
+cd near-intents-live
+git init && git add . && git commit -m "NEAR Intents Dashboard"
+gh repo create near-intents-dashboard --public --push
